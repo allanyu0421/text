@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/1e84ac8e6b.js" crossorigin="anonymous"></script>
+	
+	
+	<!--使用的編碼-->
+	<!--設定可見區域,寬度為設備的寬度,縮放率為100%-->	
+	<!--載入BootStrap的CSS設定-->	
+	<!--載入JQuery函式庫-->	
+	<!--載入工具提示 (Tooltips) 和彈出提示框 (Popovers)-->	
+	<!--載入BootStrap Javacscript -->	
+	<!--使用icon font-->		
+	
+	<style>
+		
+		.bgb-GreenOnion:hover{
+			background-color:#2c3c82;
+			border-color:#8FA300;
+		}
+		
+		.bg-LBlack{
+			background-color:#353535;
+		}	
+		
+		.bg-LWhite{
+			background-color:#ffffff;
+		}		
+		
+		.bg-blue{
+			background-color:#00185A;
+		}
+		.bg-banner1{
+			background-color: #000000;
+		}
+		.bg-menu{
+			background-color: #B16530
+		}
+		body{
+			background-color:#000000
+		}
+	</style>	
+<script>
+ 
+ //使用Popovers需要的設定 
+ $(function () {
+   $('[data-toggle="popover"]').popover()
+ })
+
+ $(function () {
+   $('.example-popover').popover({
+    container: 'body'
+   })
+ })
+
+ </script>
+	<title>弗光掠影</title>
+	
+</head>
+
+	
+<body>
+
+<font face="微軟正黑體">
+	
+<!--頁首 選單 Header Menu-->
+<div id="01" class="jumbotron-fluid text-white text-center bg-LBlack" >
+	
+	<nav class="navbar navbar-expand-lg navbar-light bg-menu" >
+					
+		<a class="navbar-brand text-white" href="#">掠·影</a>
+		
+		<a class="navbar-brand" href="https://www.instagram.com/light_and.shadow/" target="new"><i class="fa-brands fa-instagram" style="color:#000000" ></i></a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav  text-center">
+				<a class="nav-item nav-link text-white" href="#origin">源起</a>
+				<a class="nav-item nav-link text-white" href="#origin-1">設計理念</a>
+				<a class="nav-item nav-link text-white" href="#idea">作品展示</a>
+				<a class="nav-item nav-link text-white" href="#order">食物攝影</a>
+				<a class="nav-item nav-link text-white" href="#video">製作過程</a>
+				<a class="nav-item nav-link text-white" href="#contact">近期活動</a>
+				<a class="nav-item nav-link text-white" href="./pages/partner.html" target="new">工作伙伴</a>
+			</div>
+		</div>
+		
+		
+		
+	</nav>
+	
+</div>
+
+	
+<!--頁首 橫幅 Header Banner-->
+	<div class="jumbotron jumbotron-fluid bg-blue text-white text-center bg-banner1 " > 
+	
+	<div class="container">	
+
+		<img src="images/banner-主視覺.png" class="card-img-top img-fluid " alt="...">
+		<p class="lead"></p>
+		<br>
+		<p class="lead">一道菜餚背後的故事可真不簡單!</p>
+		<br>
+		<a href="#contact" class="btn btn-outline-light btn-lg" role="button">源起</a>		
+
+		<!--背景 bg-XXX -->
+		<!--文字 text-XXX -->	
+		
+	</div>
+	
+</div>
+	<!--內容 影片 Content Origin-->		
+	<div id="video" class="container text-center">
+	<video src="./video/縮時-無音樂2.mp4" controls width="500"></video>
+	<span style="text-align:right;display:block;margin-top: 5px;" ><a href="#" class="btn-sm btn-secondary " role="button">返回</a></span>
+	</div>
+<!--訊息 經營想法 Content Product-->	
+<div id="idea" class="container">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/櫻桃鴨.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+      	
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/糕渣.jpg" alt="Second slide">
+     <div class="carousel-caption d-none d-md-block">
+     	
+      </div>      
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/西魯肉.jpg" alt="Third slide">
+     <div class="carousel-caption d-none d-md-block">
+      	
+      </div>      
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="images/烤魚.jpg" alt="Third slide">
+     <div class="carousel-caption d-none d-md-block">
+      	
+      </div>      
+    </div>  
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  
+</div>
+<span style="text-align:right;display:block;margin-top: 5px;" ><a href="#" class="btn-sm btn-secondary " role="button">返回</a></span>
+</div>	
+	
+<!--內容 產品 Content Product-->			
+<div id="order" class="container">
+	
+	<div class="row">
+		
+		<div class="col-md-6 col-lg-3 ">
+			<div class="card" >
+				<img src="images/food1.jpg" class="card-img-top img-fluid " alt="...">
+				<div class="card-body">
+					<h5 class="card-title font-weight-bold">櫻桃鴨<small><small></small></small></h5>
+					<p class="card-text">經過多重改良後 ， 將鴨肉的美味發揮到極致。</p>
+			  </div>
+			</div>
+		</div>
+		
+		<div class="col-md-6 col-lg-3 ">
+			<div class="card" >
+				<img src="images/food2.jpg" class="card-img-top img-fluid " alt="...">
+				<div class="card-body">
+					<h5 class="card-title font-weight-bold">糕渣 <small><small></small></small></h5>
+					<p class="card-text">外酥內軟的口感 ， 如同宜蘭人外冷內熱的性情。</p>
+			  </div>
+			</div>
+		</div>
+		
+		<div class="col-md-6 col-lg-3 ">
+			<div class="card" >
+				<img src="images/food3.jpg" class="card-img-top img-fluid" alt="...">	
+				<div class="card-body">
+					<h5 class="card-title font-weight-bold">西魯肉 <small><small></small></small></h5>
+					<p class="card-text">平凡的食材採用華麗裝扮 ， 傳統農村人民的巧思。</p>
+			  </div>
+			</div>
+		</div>
+				
+		<div class="col-md-6 col-lg-3 ">
+			<div class="card" >
+				<img src="images/food4.jpg" class="card-img-top img-fluid" alt="...">
+				<div class="card-body">
+					<h5 class="card-title font-weight-bold">鹽烤午仔魚 <small><small></small></small></h5>
+					<p class="card-text">精心挑選與時間掌控的完美配合 ， 成就不凡的料理 。 </p>
+			  </div>
+			</div>
+			<span style="text-align:right;display:block;margin-top: 5px;" ><a href="#" class="btn-sm btn-secondary " role="button">返回</a></span>
+		</div>
+
+	</div>
+	<br>
+	
+</div>
+	
+
+
+
+
+
+
+	
+<!--內容 源起 Content Origin-->		
+<div id="origin" class="container">
+	
+	<div class="row">
+		
+		<div class="col-md-12 col-lg-12 ">
+			<div class="card" >
+				<div class="card-body">
+					<h5 class="card-title font-weight-bold">團隊源起<small></small></h5>
+					<p class="lead">在科技與手工藝之間找到平衡，是我們的理想，科技進步的時代，手工藝逐漸式微，科技固然多元，有著更多的新意，但我們仍不能忘記最初所傳下來的技藝，也不能對我們故鄉傳統的沒落視而不見，因為 那是我們的根本。<small>（2023.02，弗光掠影）</small>
+					<a href="#" class="btn-sm btn-secondary " role="button">返回</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!--內容 源起 Content Origin-->		
+<div id="origin-1" class="container">
+	
+	<div class="row">
+		
+		<div class="col-md-12 col-lg-12 ">
+			<div class="card" >
+				<div class="card-body">
+					<h5 class="card-title font-weight-bold">設計理念<small></small></h5>
+				  <p class="lead">“浮光掠影”原意是膚淺空乏，不夠深入，為貶義詞，就像是人平時吃東西時，只想滿足口腹之慾，而忽略廚師設計這些菜餚的意涵，但是，我們以”弗”字開頭，代表否定及矯正的意思，並且藉由我們的作品來讓觀眾及品嘗食物的顧客，能夠更深入的了解這些料理背後的意義或典故，再加以體會。
+  &nbsp;</p>
+				  <p class="lead">在這個科技的時代，視覺的呈現已經不僅限於現實，更可以用在虛擬世界中，但我們不希望原本的手工藝技術就這樣被虛擬的技術取代 於是決定以紙雕加上燈光結合AR的技術去完成我們的作品 讓觀眾能夠一次體驗到現實和虛擬的視覺體驗。</p>
+					<p class="lead">嘗試從沒接觸過的AR技術，在虛擬世界中使紙雕作品看起來更加生動活潑。透過燈光變化襯托出紙雕作品應有的場景感覺。希望透過紙雕加上擴增實境的技術後能夠更好的推廣我們所想要達到的宣傳目的。希望透過跟渡小月餐廳合作，嘗試以前未曾從事過的主題進行創作，並跳脫舒適圈且進行對團隊創作、不同媒材之創作體驗及精進。以藝術做為媒介，傳遞傳統菜餚意涵的訊息。<small>（2023.02，弗光掠影）</small> <a href="#" class="btn-sm btn-secondary " role="button">返回</a> </p>
+                </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--頁尾 連絡資訊 Footer Contact-->			
+<div id="contact" class="jumbotron jumbotron-fluid text-white text-center bg-LBlack" > 
+	
+	<div class="container">
+		<h5>校外展覽地點：中興文創園區&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;時間：2/4-2/14</h5>
+		<h5>校內展覽地點：羅東高商&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;時間： </h5>
+		<h5>弗光掠影 &nbsp;&nbsp;Since 2022</h5>
+	</div>
+	
+</div>
+	
+</font>
+	
+
+</body>
+</html>
